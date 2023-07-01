@@ -35,7 +35,7 @@ const div = (a, b = 2,c,d) => {
   return ((a / b)/c)/d;
 };
 
-console.log(sum(2));
-console.log(sub(2));
-console.log(mul(2));
-console.log(div(1));
+console.log(sum(2,2,2));
+console.log(sub(2,2,2,2));
+console.log(mul(2,2,2));
+console.log(div(1,2,2,2));

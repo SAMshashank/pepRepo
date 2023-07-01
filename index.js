@@ -17,22 +17,22 @@
 //////////////////solution/////////////////
 
 // Function 1
-const sum = (a, b = 2) => {
+const sum = (a, b = 2,c,d) => {
   // b = 2 is an default parameters.
-  return a + b;
+  return a + b+c+d;
 };
 // Function 2
-const sub = (a, b = 2) => {
-  return a - b;
+const sub = (a, b = 2,c,d) => {
+  return a - b-c-d;
 };
 // Function 3
-const mul = (a, b = 2) => {
-  return a * b;
+const mul = (a, b = 2,c,d) => {
+  return a * b*c*d;
 };
 // Function 4
-const div = (a, b = 2) => {
-  if (a < b) return b / a;
-  return a / b;
+const div = (a, b = 2,c,d) => {
+  
+  return ((a / b)/c)/d;
 };
 
 console.log(sum(2));
